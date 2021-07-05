@@ -46,6 +46,8 @@ function remove_lock_file {
   fi
 }
 
+
+# Main body of the code 
 wait_lock_array $lock_files 
 echo "My lock file is $lock_filename"
 sleep 5s                                # do something
